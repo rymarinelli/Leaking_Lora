@@ -70,7 +70,7 @@ pip install accelerate
 python main.py
 ```
 
-Runs ipeline with default settings.
+Runs pipeline with default settings.
 
 ---
 
@@ -92,7 +92,6 @@ Base HuggingFace model used.
 Example:
 ```
 --model facebook/opt-1.3b
---model gpt2
 ```
 
 ---
@@ -205,16 +204,7 @@ Use responsibly and only for research.
 
 ---
 
-# Reproducibility Notes
-
-To reproduce paper results:
-
-1. Use same base model
-2. Same password count
-3. Same LoRA config
-4. Same seed (if added)
-5. Run full pipeline
-
-Notebook contains original experimental environment.
-
+# Google Colab
+Google Colab was used in the research process. The notebook is an artefact of the process. Uploading the notebook and re-running the cells should ease the reproduction process. 
+The hosted notebook can be found: https://colab.research.google.com/drive/17SbVLUSpcuCNxEK-XtFPNfavG5fuZxvP?usp=sharing with the rendered output. 
 
