@@ -10,7 +10,7 @@ The CLI simply wraps the notebook logic into a reproducible pipeline.
 
 ---
 
-# 🔬 Research Overview
+# Research Overview
 
 This project investigates:
 
@@ -50,7 +50,7 @@ The CLI version exists purely for:
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 ```bash
 pip install torch transformers peft pandas numpy requests
@@ -74,7 +74,7 @@ Runs ipeline with default settings.
 
 ---
 
-# 🧾 CLI Parameters
+#  CLI Parameters
 
 The CLI can be extended with parameters for reproducibility.
 
@@ -166,7 +166,7 @@ Example:
 
 ---
 
-# 🖥 Hardware Requirements
+# Hardware Requirements
 
 Recommended:
 - GPU with ≥16GB VRAM
@@ -177,7 +177,7 @@ Possible but slow:
 
 ---
 
-# 📊 Outputs
+#  Outputs
 
 The script prints:
 
@@ -189,7 +189,7 @@ The script prints:
 
 ---
 
-# ⚠️ Ethics & Intended Use
+# Ethics & Intended Use
 
 This repository exists for:
 
@@ -205,7 +205,7 @@ Use responsibly and only for research.
 
 ---
 
-# 📚 Reproducibility Notes
+# Reproducibility Notes
 
 To reproduce paper results:
 
